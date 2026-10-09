@@ -1,0 +1,4 @@
+item,separation_kept,max_p2,max_p1,min_ratio_geo,max_ratio_geo,pairs_breaking
+"one day at a time, any of 8 (+-1, +-1) changes on one day (72 scenarios)",72 of 72,0.03571428571428571,0.017857142857142856,2.540946270391358,3.328500500544023,
+"two days at once, adverse direction (28 pairs)",26 of 28,0.05357142857142857,0.03571428571428571,2.287025906222923,2.659095298589734,80/80 & 90/70;90/70 & 100/100
+"all eight days at once, adverse direction",0 of 1,0.08928571428571429,0.05357142857142857,1.6603461518835005,1.6603461518835005,

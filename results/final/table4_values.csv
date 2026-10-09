@@ -1,0 +1,53 @@
+parameter,symbol,column,estimate,ci95_lo,ci95_hi
+Intercept,β0,"Car, inward (M2F)",-5.104783625303748,-5.4733920688746505,-4.736175181732845
+Intercept,β0,"Car, outward (M0)",-6.600995318508704,-6.901561344377589,-6.300429292639819
+Intercept,β0,"Heavy vehicle, inward (M0)",-7.656370818368825,-8.169997025261663,-7.142744611475988
+Intercept,β0,"Heavy vehicle, outward (M0, closed loop)",-3.455204656789544,-4.213745528557029,-2.696663785022058
+Own acceleration gain Δa_c (per m/s²),β_I,"Car, inward (M2F)",0.6554694432497694,0.5121342127037949,0.7988046737957439
+Own acceleration gain Δa_c (per m/s²),β_I,"Car, outward (M0)",1.0828077680482109,0.8764313075255378,1.2891842285708837
+Own acceleration gain Δa_c (per m/s²),β_I,"Heavy vehicle, inward (M0)",0.9887318029697484,0.8487501065473347,1.128713499392162
+Own acceleration gain Δa_c (per m/s²),β_I,"Heavy vehicle, outward (M0, closed loop)",0.3382377264818439,0.0943933961905064,0.5820820567731815
+Old follower Δa_o (per m/s²),β_o,"Car, inward (M2F)",0.4247495923316836,0.0873115705751634,0.7621876140882038
+Old follower Δa_o (per m/s²),β_o,"Car, outward (M0)",0.427882717670502,-0.05366144898911,0.909426884330114
+Old follower Δa_o (per m/s²),β_o,"Heavy vehicle, inward (M0)",0.3880822970068706,-0.0914879837660416,0.867652577779783
+Old follower Δa_o (per m/s²),β_o,"Heavy vehicle, outward (M0, closed loop)",-0.1035926651158201,-0.6120824580032757,0.4048971277716354
+New follower Δa_n (per m/s²),β_n,"Car, inward (M2F)",-0.3009550123434953,-0.6159372267486478,0.014027202061657
+New follower Δa_n (per m/s²),β_n,"Car, outward (M0)",-0.3540719685509462,-0.7913120615315204,0.083168124429628
+New follower Δa_n (per m/s²),β_n,"Heavy vehicle, inward (M0)",0.817181395938285,-0.0221149130175817,1.6564777048941517
+New follower Δa_n (per m/s²),β_n,"Heavy vehicle, outward (M0, closed loop)",0.3353126844412535,-0.1389401239666451,0.8095654928491522
+"New follower would brake harder than 4 m/s², U",β_U,"Car, inward (M2F)",-25.637932973275475,,
+"New follower would brake harder than 4 m/s², U",β_U,"Car, outward (M0)",-1.7243904048954797,-4.093247663640059,0.6444668538490996
+"New follower would brake harder than 4 m/s², U",β_U,"Heavy vehicle, inward (M0)",4.658961900208139,1.192890004691046,8.125033795725232
+"New follower would brake harder than 4 m/s², U",β_U,"Heavy vehicle, outward (M0, closed loop)",-21.238958242399168,,
+"Desired speed, per 10 km/h above 80 km/h",β_v,"Car, inward (M2F)",0.4305172331710525,0.3147275296433968,0.5463069366987082
+"Desired speed, per 10 km/h above 80 km/h",β_v,"Car, outward (M0)",0.0171341194740558,-0.2368064818388141,0.2710747207869259
+"Desired speed, per 10 km/h above 80 km/h",β_v,"Heavy vehicle, inward (M0)",0.0654303194787983,-0.3386819708218299,0.4695426097794267
+"Desired speed, per 10 km/h above 80 km/h",β_v,"Heavy vehicle, outward (M0, closed loop)",-0.4797412683750841,-0.7481899574017401,-0.211292579348428
+"Entered current lane by a lane change, R",β_r,"Car, inward (M2F)",0.1202751984774015,-0.4149598539638712,0.6555102509186742
+"Entered current lane by a lane change, R",β_r,"Car, outward (M0)",1.726800437769518,1.2217243945192473,2.231876481019789
+"Entered current lane by a lane change, R",β_r,"Heavy vehicle, inward (M0)",1.081266741108206,0.2284342056596485,1.9340992765567635
+"Entered current lane by a lane change, R",β_r,"Heavy vehicle, outward (M0, closed loop)",0.9824795822045514,0.1260925556240617,1.8388666087850407
+"Unconstrained, F",β_f,"Car, inward (M2F)",-0.8994888798479823,-1.4434825091352916,-0.3554952505606729
+"Unconstrained × differentiated limits, F·D",β_F,"Car, inward (M2F)",1.0412418839886484,0.5791586550324787,1.5033251129448182
+"Scale of the incentive, 1/β_I (m/s²)",σ,"Car, inward (M2F)",1.5256241313738037,1.1920072269567368,1.8592410357908704
+"Scale of the incentive, 1/β_I (m/s²)",σ,"Car, outward (M0)",0.9235249593771628,0.7475068165962382,1.0995431021580873
+"Scale of the incentive, 1/β_I (m/s²)",σ,"Heavy vehicle, inward (M0)",1.0113966163487471,0.8682061033227204,1.1545871293747745
+"Scale of the incentive, 1/β_I (m/s²)",σ,"Heavy vehicle, outward (M0, closed loop)",2.956500477937308,0.8250827719726241,5.087918183901991
+"Weight on the old follower, β_o/β_I",p_o,"Car, inward (M2F)",0.648008227852402,0.1280979600771657,1.1679184956276385
+"Weight on the old follower, β_o/β_I",p_o,"Car, outward (M0)",0.3951603694548403,-0.0435307917142425,0.8338515306239233
+"Weight on the old follower, β_o/β_I",p_o,"Heavy vehicle, inward (M0)",0.3925051220575986,-0.1046905037312297,0.8897007478464269
+"Weight on the old follower, β_o/β_I",p_o,"Heavy vehicle, outward (M0, closed loop)",-0.3062717639257217,-1.8109304812526013,1.1983869534011578
+"Weight on the new follower, β_n/β_I",p_n,"Car, inward (M2F)",-0.4591442292891374,-0.9400761112579704,0.0217876526796957
+"Weight on the new follower, β_n/β_I",p_n,"Car, outward (M0)",-0.3269943003726046,-0.7373519858251397,0.0833633850799304
+"Weight on the new follower, β_n/β_I",p_n,"Heavy vehicle, inward (M0)",0.8264944987951275,-0.0252328257877432,1.6782218233779982
+"Weight on the new follower, β_n/β_I",p_n,"Heavy vehicle, outward (M0, closed loop)",0.9913521118090076,-0.3677799912964062,2.3504842149144216
+a_th,a_th,"Car, inward (M2F)",7.787981084205246,6.388230461769334,9.187731706641156
+a_th,a_th,"Car, outward (M0)",6.096183933374593,5.026177631227644,7.166190235521541
+a_th,a_th,"Heavy vehicle, inward (M0)",7.74362753920952,6.692688010883193,8.794567067535846
+a_th,a_th,"Heavy vehicle, outward (M0, closed loop)",10.215314219169496,2.158860816960047,18.271767621378945
+P(change in 1 s) at zero incentive,,"Car, inward (M2F)",0.00603105730455845,,
+P(change in 1 s) at zero incentive,,"Car, outward (M0)",0.0013571702972681177,,
+P(change in 1 s) at zero incentive,,"Heavy vehicle, inward (M0)",0.0004727973354788923,,
+P(change in 1 s) at zero incentive,,"Heavy vehicle, outward (M0, closed loop)",0.030614023857919507,,
+"Offset of unconstrained cars, all days, β_f/β_I (m/s²)",a_free,"Car, inward (M2F)",-1.3722819409984734,-2.3750723708344754,-0.3694915111624712
+"Inner-lane bias of unconstrained cars, differentiated days, β_F/β_I (m/s²)",a_bias,"Car, inward (M2F)",1.5885437448102042,0.8030629151553613,2.374024574465047

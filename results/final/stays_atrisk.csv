@@ -1,0 +1,16 @@
+set,0,200,400,600,800
+car_entry,1171,1135,1118,1104,1089
+car_entry_diff,635,617,608,602,595
+car_entry_same,536,518,510,502,494
+car_lc_all,190,172,150,110,61
+car_ld,57,52,42,27,17
+car_ld_diff,32,30,23,14,8
+car_ld_same,25,22,19,13,9
+car_un,133,120,108,83,44
+car_un_diff,95,86,79,62,30
+car_un_same,38,34,29,21,14
+heavy_lc_all,94,57,26,15,8
+heavy_ld,58,41,19,10,4
+heavy_ld_diff,34,23,11,6,4
+heavy_ld_same,24,18,8,4,0
+heavy_un,36,16,7,5,4

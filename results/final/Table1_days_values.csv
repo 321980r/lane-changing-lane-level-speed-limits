@@ -1,0 +1,9 @@
+﻿date,weekday,group,configuration_inner_outer_kmh,delta_kmh,session_logbook,session_analysed,session_part,session_hours,vehicles,flow_vph,heavy_share,vehicle_km,car_km,heavy_km,unknown_class_km,lc_analysis_grade,lc_car,lc_heavy,car_inward,car_outward,inward_share_cars,notes
+2022-07-28,Thursday,differentiated,100/80,20,07:50-12:00,07:50-12:00,morning,4.167,354,85.0,0.534,424.7,198.0,226.7,0.0,54,33,21,21,12,0.64,
+2022-07-29,Friday,same-limit,80/80,0,08:00-12:00,08:00-12:00,morning,4.0,465,116.2,0.503,543.6,265.0,277.4,1.2,67,35,32,20,15,0.57,Rebuilt from the leader-augmented export; vehicles with nobody else in range are missing (isolated vehicles under-represented).
+2022-08-01,Monday,differentiated,80/60,20,07:56-11:59,07:56-11:59,morning,4.05,386,95.3,0.557,462.7,204.7,258.0,0.0,38,18,20,14,4,0.78,
+2022-08-02,Tuesday,differentiated,80/70,10,07:56-12:00,07:56-12:00,morning,4.067,422,103.8,0.519,504.1,243.5,260.5,0.0,53,36,17,27,9,0.75,
+2022-08-03,Wednesday,differentiated,90/70,20,07:53-11:55,07:53-10:30,morning,2.617,279,106.6,0.545,331.8,150.9,180.9,0.0,58,23,35,12,11,0.52,Outer lane temporarily occupied later in the day; only the undisturbed part 07:53-10:30 is analysed.
+2022-08-05,Friday,differentiated,100/70,30,10:00-16:00,10:00-16:00,late morning-afternoon,6.0,750,125.0,0.488,897.9,460.2,437.7,0.0,133,86,47,60,26,0.7,
+2022-08-08,Monday,same-limit,60/60,0,09:53-15:53,09:53-15:53,late morning-afternoon,6.0,669,111.5,0.568,799.8,346.4,453.4,0.0,85,50,35,27,23,0.54,
+2022-08-11,Thursday,same-limit,100/100,0,09:58-15:58,09:58-15:58,late morning-afternoon,6.0,599,99.8,0.406,714.4,424.0,290.4,0.0,79,50,29,24,26,0.48,Third gantry (downstream of the window) showed 60/60.

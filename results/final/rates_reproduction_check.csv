@@ -1,0 +1,26 @@
+item,value,reference
+day_table n mismatches vs sit_day_rates.csv,0,0
+day_table max |km diff| vs sit_day_rates.csv,2.842170943040401e-14,0
+F1 free same mean,0.10740681392551048,0.107
+F1 free diff mean,0.26921094965045445,0.269
+F1 ratio,2.5064606221087566,2.51
+F1 p two-sided,0.07142857142857142,0.071
+F1 p rank,0.03571428571428571,0.036
+F1 p one-sided,0.017857142857142856,0.018
+F2 within-day log(free/leader-driven) p (S1 state C),0.017857142857142856,0.018
+F3 leader-driven same mean,1.042412410466788,1.04
+F3 leader-driven diff mean,1.0084174877415317,1.01
+F3 ratio,0.9673882214141776,0.97
+F3 p,0.9285714285714286,0.93
+F1 free rate 60/60,0.11114452330405061,
+F1 free rate 80/80,0.11627814137368103,
+F1 free rate 100/100,0.09479777709879977,
+F1 free rate 80/70,0.2550546467835178,
+F1 free rate 90/70,0.25900477578258974,
+F1 free rate 100/80,0.24832290579025257,
+F1 free rate 80/60,0.1370427827405263,
+F1 free rate 100/70,0.446629637155386,
+fig3 free class n same/diff,24/78,24/78
+fig3 free class km same/diff,231.0/269.8,231.0/269.8
+fig3 free class ratio of day means,2.5065,2.51
+fig3 free class p two-sided,0.0714,0.071

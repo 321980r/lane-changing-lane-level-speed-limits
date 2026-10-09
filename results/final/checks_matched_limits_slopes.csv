@@ -1,0 +1,11 @@
+series,covariate,slope,pearson_r,r2,p_two_pair_perm,n_perm,note
+unconstrained rate,vin,0.004133653156723335,0.4892984722152362,0.23941299491216428,0.21875,40320.0,"(V_in, V_out) pairs reassigned to days (8! orderings); identical to relabelling for the diff indicator up to ties"
+ln(unconstrained / leader-driven),vin,0.016564860835847846,0.3851832072010622,0.14836610310969642,0.3482142857142857,40320.0,"(V_in, V_out) pairs reassigned to days (8! orderings); identical to relabelling for the diff indicator up to ties"
+unconstrained rate,vout,-0.0018930199902740606,-0.20729810866599038,0.04297250585649676,0.6029761904761904,40320.0,"(V_in, V_out) pairs reassigned to days (8! orderings); identical to relabelling for the diff indicator up to ties"
+ln(unconstrained / leader-driven),vout,-0.0104711563122451,-0.22525503603816022,0.050739831260552856,0.6190476190476191,40320.0,"(V_in, V_out) pairs reassigned to days (8! orderings); identical to relabelling for the diff indicator up to ties"
+unconstrained rate,delta,0.008403584203583243,0.8230944799635815,0.6774845229465187,0.010714285714285714,40320.0,"(V_in, V_out) pairs reassigned to days (8! orderings); identical to relabelling for the diff indicator up to ties"
+ln(unconstrained / leader-driven),delta,0.0372823605584527,0.7173453084003405,0.5145842914839797,0.05625,40320.0,"(V_in, V_out) pairs reassigned to days (8! orderings); identical to relabelling for the diff indicator up to ties"
+unconstrained rate,diff,0.16180413572494398,0.7040663439244104,0.4957094166470861,0.07142857142857142,40320.0,"(V_in, V_out) pairs reassigned to days (8! orderings); identical to relabelling for the diff indicator up to ties"
+ln(unconstrained / leader-driven),diff,1.0403358591966039,0.8892774132866232,0.7908143177817477,0.017857142857142856,40320.0,"(V_in, V_out) pairs reassigned to days (8! orderings); identical to relabelling for the diff indicator up to ties"
+unconstrained rate,"vin | delta (OLS, 8 days)",0.0008690771605049117,,,,,delta slope 0.0079 per km/h; descriptive
+unconstrained rate,"vout | diff (OLS, 8 days)",0.0007858663063922276,,,,,diff step 0.1697 per km; descriptive

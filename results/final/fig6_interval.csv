@@ -1,0 +1,6 @@
+item,value,ci_lo,ci_hi,p_two,p_one
+"observed contrast, ratio of factors (2.420/1.033), 8 days",2.342565399651043,,,,
+"observed contrast, geometric mean of day log contrasts, 8 days (test-inverted 95 % interval; exact 56-labelling p)",2.479379835658394,1.10643693262448,4.741369808346139,0.03571428571428571,0.017857142857142856
+"sensitivity: inversion of the ratio-of-factors statistic itself, 8 days",2.342565399651043,1.10643693262448,4.500201948196292,0.017857142857142856,0.017857142857142856
+"same-limit day contrasts (min, max)",0.21591229900491374,0.3246282512008304,,,
+"differentiated day contrasts (min, max)",0.35918026125971514,1.029301650523358,,,

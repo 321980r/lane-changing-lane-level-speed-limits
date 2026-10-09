@@ -1,0 +1,9 @@
+variant,group,check,value
+orig,car_in,window dt range (s),0.10-5.00
+orig,car_in,"analysis-grade car inward stamps in [1000,1800) (core_events)",161
+orig,car_in,event windows in the estimation sample,160
+orig,car_in,hand dA_ego row 4945,0.0000 vs mobil_model 0.0000
+orig,car_in,hand dA_ego row 22365,0.0000 vs mobil_model 0.0000
+orig,car_in,hand dA_ego row 2360,0.7048 vs mobil_model 0.7048
+orig,car_in,hand dA_ego row 6527,-4.0224 vs mobil_model -4.0224
+orig,car_in,hand dA_ego row 4999,0.0000 vs mobil_model 0.0000

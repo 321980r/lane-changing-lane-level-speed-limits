@@ -1,0 +1,17 @@
+data/
+_cache/
+__pycache__/
+*.pyc
+~$*
+.DS_Store
+results/core/
+results/final/rates_inward_context_data.csv
+results/final/lane_sequences_vehicles.csv
+results/final/stays_checks_heavy_free.csv
+results/final/stays_checks_s8_candidates.csv
+results/final/contrast_mirror_events.csv
+results/lateral_check.csv
+results/stints.csv
+results/check_stint_lat_events.csv
+results/check_stint_postpass_units.csv
+results/check_stint_seq_runs_lat.csv

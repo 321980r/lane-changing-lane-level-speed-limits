@@ -1,0 +1,29 @@
+﻿Parameter,Symbol,"Car, inward (M2F)","Car, outward (M0)","Heavy vehicle, inward (M0)","Heavy vehicle, outward (M0, closed loop)"
+Logit coefficients,,,,,
+Intercept,β0,"−5.10 (−5.47, −4.74)","−6.60 (−6.90, −6.30)","−7.66 (−8.17, −7.14)","−3.46 (−4.21, −2.70)"
+Own acceleration gain Δa_c (per m/s²),β_I,"0.66 (0.51, 0.80)","1.08 (0.88, 1.29)","0.99 (0.85, 1.13)","0.34 (0.09, 0.58)"
+Old follower Δa_o (per m/s²),β_o,"0.42 (0.09, 0.76)","0.43 (−0.05, 0.91)","0.39 (−0.09, 0.87)","−0.10 (−0.61, 0.40)"
+New follower Δa_n (per m/s²),β_n,"−0.30 (−0.62, 0.01)","−0.35 (−0.79, 0.08)","0.82 (−0.02, 1.66)","0.34 (−0.14, 0.81)"
+"New follower would brake harder than 4 m/s², U",β_U,veto (no finite estimate),"−1.72 (−4.09, 0.64)","4.66 (1.19, 8.13)",veto (no finite estimate)
+"Desired speed, per 10 km/h above 80 km/h",β_v,"0.43 (0.31, 0.55)","0.02 (−0.24, 0.27)","0.07 (−0.34, 0.47)","−0.48 (−0.75, −0.21)"
+"Entered current lane by a lane change, R",β_r,"0.12 (−0.41, 0.66)","1.73 (1.22, 2.23)","1.08 (0.23, 1.93)","0.98 (0.13, 1.84)"
+"Unconstrained, F",β_f,"−0.90 (−1.44, −0.36)",–,–,–
+"Unconstrained × differentiated limits, F·D",β_F,"1.04 (0.58, 1.50)",–,–,–
+"  β_F, day level: jackknife SE (vehicle-clustered SE)",,0.39 (0.24),–,–,–
+"  β_F, day level: jackknife t(7) 95 % interval",,"(0.12, 1.97)",–,–,–
+"  β_F, leave-one-day-out range",,0.74–1.21,–,–,–
+MOBIL form,,,,,
+"Scale of the incentive, 1/β_I (m/s²)",σ,"1.53 (1.19, 1.86)","0.92 (0.75, 1.10)","1.01 (0.87, 1.15)","2.96 (0.83, 5.09)"
+"Weight on the old follower, β_o/β_I",p_o,"0.65 (0.13, 1.17)","0.40 (−0.04, 0.83)","0.39 (−0.10, 0.89)","−0.31 (−1.81, 1.20)"
+"Weight on the new follower, β_n/β_I",p_n,"−0.46 (−0.94, 0.02)","−0.33 (−0.74, 0.08)","0.83 (−0.03, 1.68)","0.99 (−0.37, 2.35)"
+"Location of the hazard, −β0/β_I (m/s²)",a_th,"7.79 (6.39, 9.19)","6.10 (5.03, 7.17)","7.74 (6.69, 8.79)","10.2 (2.2, 18.3)"
+"1 s change probability at zero incentive, Λ(β0)",,0.0060,0.0014,0.0005,0.0306
+"Offset of unconstrained cars, all days, β_f/β_I (m/s²)",a_free,"−1.37 (−2.38, −0.37)",–,–,–
+"Inner-lane bias of unconstrained cars, differentiated days, β_F/β_I (m/s²)",a_bias,"1.59 (0.80, 2.37)",–,–,–
+"  a_bias, day level: jackknife t(7) 95 % interval (m/s²)",,"(0.25, 2.92)",–,–,–
+"  a_bias, leave-one-day-out range (m/s²)",,1.20–1.87,–,–,–
+Fit and tests,,,,,
+Changes / vehicles / decision points,,"160 / 813 / 27,565","90 / 1,318 / 41,983","78 / 1,972 / 83,054","69 / 115 / 1,926"
+Log-likelihood; AIC,,−654.5; 1327.1,−450.7; 915.3,−409.5; 833.0,−144.7; 303.3
+Leave-one-day-out log-likelihood,,−669.6,−464.3,−420.0,−160.4
+"Exact day-level test of β_F, 56 labellings (one-/two-sided p)",,0.018 / 0.036,–,–,–

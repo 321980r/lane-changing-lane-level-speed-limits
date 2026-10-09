@@ -1,0 +1,33 @@
+cls,variant,param,value
+car,REL,speedFactor mean,1.012499960677415
+car,REL,speedFactor sd,0.22421498397980102
+car,REL,speedFactor q01,0.6372541133880615
+car,REL,speedFactor q99,1.5400130068461104
+car,obs,mean sf 60/60,1.2356564651382924
+car,obs,mean free speed 60/60 (km/h),74.13938903808594
+car,obs,mean sf 80/80,1.0113909405574464
+car,obs,mean free speed 80/80 (km/h),80.91127014160156
+car,obs,mean sf 100/100,0.8317830762782111
+car,obs,mean free speed 100/100 (km/h),83.17830657958984
+car,ABS,vmax mean (km/h),80.0
+car,ABS,vmax sd (km/h),12.0
+car,ABS,tolerance k (cap = k x lane limit),1.3700000000000006
+car,ABS,decile rmse (km/h),3.4714800648237154
+car,REL,decile rmse (km/h),14.578765515676901
+car,obs,n vehicles (3 same-limit days),868.0
+heavy,REL,speedFactor mean,0.9009847426984154
+heavy,REL,speedFactor sd,0.18705218729949805
+heavy,REL,speedFactor q01,0.5510652160644531
+heavy,REL,speedFactor q99,1.2875453313191731
+heavy,obs,mean sf 60/60,1.0593147814640795
+heavy,obs,mean free speed 60/60 (km/h),63.55888748168945
+heavy,obs,mean sf 80/80,0.8727158241686613
+heavy,obs,mean free speed 80/80 (km/h),69.8172607421875
+heavy,obs,mean sf 100/100,0.6798887367879064
+heavy,obs,mean free speed 100/100 (km/h),67.9888687133789
+heavy,ABS,vmax mean (km/h),68.0
+heavy,ABS,vmax sd (km/h),7.5
+heavy,ABS,tolerance k (cap = k x lane limit),1.12
+heavy,ABS,decile rmse (km/h),2.3114011079088947
+heavy,REL,decile rmse (km/h),15.539644168487463
+heavy,obs,n vehicles (3 same-limit days),851.0

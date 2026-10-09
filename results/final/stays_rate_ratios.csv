@@ -1,0 +1,8 @@
+comparison,days,rate_ratio,ci_lo,ci_hi,p_wald,n_stints,returns,note
+"heavy / car, leader-driven stints",8 days,5.30185470095023,2.410949939447905,11.659165049451431,3.343563107426648e-05,115,34,"Poisson GLM ret ~ group + day, offset log km, vehicle-day clustered SE"
+"heavy / car, all lateral-confirmed inward changes",8 days,9.381031258926908,5.234225704415921,16.81313578180595,5.473965683220861e-14,284,65,"Poisson GLM ret ~ group + day, offset log km, vehicle-day clustered SE"
+car leader-driven / car unconstrained,8 days,1.9130187794601532,0.7255411039577582,5.04401588084289,0.18973458957433464,190,17,"Poisson GLM ret ~ group + day, offset log km, vehicle-day clustered SE"
+heavy unconstrained / heavy leader-driven,8 days,1.5837295801723685,0.9165020539688795,2.736708960172297,0.09944842028629386,94,48,"Poisson GLM ret ~ group + day, offset log km, vehicle-day clustered SE"
+car unconstrained / car at entry,8 days,1.452571761942043,0.7094372468387321,2.9741386331116106,0.30721707643840945,1304,103,"Poisson GLM ret ~ group + day, offset log km, vehicle-day clustered SE"
+car leader-driven / car at entry,8 days,3.073966891864163,1.511923366799019,6.2498355801475745,0.0019236267725608212,1228,102,"Poisson GLM ret ~ group + day, offset log km, vehicle-day clustered SE"
+"car at entry, differentiated / same-limit (pooled Poisson, day-clustered SE, 8 clusters: indicative only)",8 days,0.8691188031813598,0.5967337695244227,1.2658366806447077,0.4646615083426424,1171,94,

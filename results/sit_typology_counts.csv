@@ -1,0 +1,16 @@
+truck,direction,typ,diff,same
+0,in,IN_free,78,24
+0,in,IN_mid,11,14
+0,in,IN_noview,10,5
+0,in,IN_overtake,35,28
+0,out,OUT_blocked,10,7
+0,out,OUT_keepright,31,35
+0,out,OUT_return,20,20
+0,out,OUT_yield,1,2
+1,in,IN_free,24,12
+1,in,IN_mid,7,6
+1,in,IN_noview,13,5
+1,in,IN_overtake,41,31
+1,out,OUT_blocked,0,1
+1,out,OUT_keepright,9,9
+1,out,OUT_return,46,32

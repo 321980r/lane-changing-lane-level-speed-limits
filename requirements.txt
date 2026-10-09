@@ -1,0 +1,7 @@
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.15.2
+statsmodels==0.14.4
+matplotlib==3.10.1
+pillow==11.1.0
+# Simulation check: SUMO 1.18 with TraCI (traci and sumolib come with SUMO; set SUMO_HOME)
